@@ -1,0 +1,75 @@
+body {
+    text-align: center;
+}
+.changer {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-direction: column;
+}
+#titlevalue {
+    width: 300px;
+    outline: none;
+    height: 35px;
+    font-size: 20px;
+    margin-bottom: 20px;
+    border: 0px;
+    border-bottom: 1px solid black;
+}
+#changerbtn {
+    background-color: black;
+    border-radius: 20px;
+    width: 200px;
+    height: 30px;
+    color: white;
+    font-size: 18px;
+    outline: none;
+}
+.bottom {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.fbbox {
+    display: flex;
+    flex-direction: row;
+}
+.fb {
+    margin: 10px;
+    width: 350px;
+    height: 400px;
+    background-color: rgba(0,0,0,0);
+    border-radius: 20px;
+    overflow: hidden;
+    position: relative;
+}
+.fb:hover {
+    cursor: pointer;
+    background-color: rgba(0,0,0,1);
+    opacity: 0.9;
+}
+.fbimage {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.fbtop {
+    background-color: rgb(138,5,42);
+    opacity: 0.8;
+    width: 100%;
+    height: 30%;
+    bottom: 0;
+    position: absolute;
+    padding: 10px;
+    text-align: left;
+    color: white;
+}
+.fbtop h3 {
+    font-size: 20px;
+    margin: 5px 0px;
+}
+.fbtop span {
+    font-size: 18px;
+    font-weight: 500;
+}
